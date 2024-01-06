@@ -1,3 +1,5 @@
+//forms/[action]/[type]/[fieldType]/[fieldName]/+page.server.js
+
 import { z } from 'zod';
 import { fail, redirect } from '@sveltejs/kit';
 import { superValidate } from 'sveltekit-superforms/server';

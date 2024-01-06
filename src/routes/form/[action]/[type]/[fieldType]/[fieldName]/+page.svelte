@@ -1,4 +1,5 @@
 <script lang="ts">
+  //forms/[action]/[type]/[fieldType]/[fieldName]/+page.svelte
   import { superForm } from 'sveltekit-superforms/client';
   import type { PageData } from './$types';
   import Text from '$lib/forms/components/Text.svelte';
